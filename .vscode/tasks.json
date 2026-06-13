@@ -5,13 +5,8 @@
       "label": "Compile TypeScript",
       "type": "shell",
       "command": "npm.cmd",
-      "args": [
-        "run",
-        "compile"
-      ],
-      "problemMatcher": [
-        "$tsc"
-      ],
+      "args": ["run", "compile"],
+      "problemMatcher": ["$tsc"],
       "group": {
         "kind": "build",
         "isDefault": true
